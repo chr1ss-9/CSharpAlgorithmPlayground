@@ -6,7 +6,8 @@ namespace AlgorithmShowcase {
     /// </summary>
     public class CountingSort : ISortingAlgorithm {
         /// <summary>
-        /// Sorts an array of integers using the Counting Sort algorithm.
+        /// Sorts an array of integers using the Counting Sort algorithm. 
+        /// Good for a close range of values, since it creates a histogram of the data.
         /// </summary>
         /// <param name="data">The array of integers to be sorted.</param>
         /// <returns>The sorted array of integers.</returns>

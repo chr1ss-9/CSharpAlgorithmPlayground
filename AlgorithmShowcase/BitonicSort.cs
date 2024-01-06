@@ -3,10 +3,14 @@
 namespace AlgorithmShowcase {
     /// <summary>
     /// Implementation of the Bitonic Sort algorithm.
+    /// Bitonic Sort is particularly useful when dealing with parallel processing or parallel algorithms.
     /// </summary>
     public class BitonicSort : ISortingAlgorithm {
         /// <summary>
         /// Sorts an array of integers using the Bitonic Sort algorithm.
+        /// Bitonic Sort splits the array, sorting each half in opposite directions. 
+        /// After sorting, it combines them to create a "bitonic" structure. 
+        /// This process repeats, further splitting and sorting until the entire array is sorted.
         /// </summary>
         /// <param name="data">The array of integers to be sorted.</param>
         /// <returns>The sorted array of integers.</returns>
